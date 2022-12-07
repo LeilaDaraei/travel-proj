@@ -1,0 +1,39 @@
+h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 144px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h2 {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+}
+h3 {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
+  color: #272044;
+  background: white;
+  border: 1px solid #272044;
+  text-align: center;
+}
