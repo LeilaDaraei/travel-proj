@@ -52,14 +52,51 @@ header .button {
   text-transform: uppercase;
   text-decoration: none;
 }
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
     url("../image/footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  text-align: center;
-  padding: 150px 0;
+  padding: 100px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr;
+  grid-gap: 50px;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer p {
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
 }
 @media (max-width: 800px) {
   header {
