@@ -95,6 +95,7 @@ section.secondary {
 section .text-center {
   text-align: center;
 }
+
 .secondary h4 {
   font-weight: 700;
   font-size: 24px;
@@ -118,14 +119,14 @@ section .text-center {
   background: white;
   padding: 30px;
 }
-.secondary img {
-  width: 100%;
+.cards {
+  margin-top: 30px;
 }
 main .learn-more {
   padding: 16px 32px;
   display: block;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
   color: white;
   text-decoration: none;
   background: #462cb3;
@@ -152,6 +153,18 @@ footer {
 }
 .grid-three-col {
   grid-template-columns: 2fr 3fr 3fr;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.secondary img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: block;
 }
 
 footer h3 {
@@ -202,5 +215,11 @@ footer a {
 
   .img-mobile-hide {
     display: none;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 21/9;
   }
 }
